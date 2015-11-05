@@ -6,14 +6,14 @@ TODO: Write a project description
 
 1. Setup virtualenv and Flask
 
-'''
+```
 $ sudo pip install virtualenv
 $ mkdir cardbox
 $ cd cardbox
 $ virtualenv .
 $ . bin/activate
 $ pip install Flask
-'''
+```
 
 2. Pull down this repo in the 'cardbox' directory.
 3. Get started!
