@@ -1,5 +1,5 @@
 from flask import Flask, url_for, render_template
-from flast.ext.pymongo import PyMongo
+from flask.ext.pymongo import PyMongo
 
 
 app = Flask(__name__)
