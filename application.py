@@ -1,5 +1,9 @@
 from flask import Flask, url_for, render_template
+from flast.ext.pymongo import PyMongo
+
+
 app = Flask(__name__)
+mongo = PyMongo(app)
 
 @app.route('/')
 def index():
