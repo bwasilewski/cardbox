@@ -4,7 +4,7 @@ TODO: Write a project description
 
 ## Installation
 
-1. Setup virtualenv and Flask
+Setup virtualenv and Flask
 
 ```
 $ sudo pip install virtualenv
@@ -15,14 +15,14 @@ $ . bin/activate
 $ pip install Flask
 ```
 
-2. Pull down this repo in the 'cardbox' directory.
-3. Install PyMongo
+Pull down this repo in the 'cardbox' directory.
+Install PyMongo
 
 ```
 $ pip install Flask-PyMongo
 ```
 
-4. Add PyMongo in cardbox/application.py
+Add PyMongo in cardbox/application.py
 
 ```
 from flask import Flask
@@ -32,9 +32,7 @@ app = Flask(__name__)
 mongo = PyMongo(app)
 ```
 
-5. Get started!
-
-
+Get started!
 
 ## Usage
 
