@@ -16,14 +16,13 @@ $ pip install Flask
 ```
 
 2. Pull down this repo in the 'cardbox' directory.
-
 3. Install PyMongo
 
 ```
 $ pip install Flask-PyMongo
 ```
 
-Add PyMongo in cardbox/application.py
+4. Add PyMongo in cardbox/application.py
 
 ```
 from flask import Flask
@@ -33,7 +32,7 @@ app = Flask(__name__)
 mongo = PyMongo(app)
 ```
 
-3. Get started!
+5. Get started!
 
 
 
