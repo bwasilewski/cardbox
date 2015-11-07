@@ -4,39 +4,34 @@ TODO: Write a project description
 
 ## Installation
 
-Setup virtualenv and Flask
+Setup virtualenv and Flask and Flask-PyMongo
 
 ```
 $ sudo pip install virtualenv
+$ pip install Flask
+$ pip install Flask-PyMongo
 $ mkdir cardbox
 $ cd cardbox
 $ virtualenv .
 $ . bin/activate
-$ pip install Flask
+
 ```
 
 Pull down this repo in the 'cardbox' directory.
-Install PyMongo
-
-```
-$ pip install Flask-PyMongo
-```
-
-Add PyMongo in cardbox/application.py
-
-```
-from flask import Flask
-from flast.ext.pymongo import PyMongo
-
-app = Flask(__name__)
-mongo = PyMongo(app)
-```
-
 Get started!
 
 ## Usage
+From directory above repo, activate virtual environment
 
-TODO: Write usage instructions
+```
+$ . bin/activate
+```
+
+Move to cardbox repo directory, start the server
+
+```
+$ python application.py
+```
 
 ## Contributing
 
