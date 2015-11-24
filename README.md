@@ -4,20 +4,23 @@ TODO: Write a project description
 
 ## Installation
 
-Setup virtualenv and Flask and Flask-PyMongo
+Setup virtualenv and Flask and Flask-PyMongo, then start the mongo server
 
 ```
 $ sudo pip install virtualenv
-$ pip install Flask
-$ pip install Flask-PyMongo
 $ mkdir cardbox
 $ cd cardbox
 $ virtualenv .
 $ . bin/activate
+$ pip install Flask
+$ pip install mongo
+$ pip install Flask-PyMongo
+$ pip install flask-mongoengine
+$ mongod
 
 ```
 
-Pull down this repo in the 'cardbox' directory.
+In a separate window, pull down this repo in the 'cardbox' directory.
 Get started!
 
 ## Usage
