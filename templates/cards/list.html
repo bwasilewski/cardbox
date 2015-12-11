@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Your Cards</h1>
+      {% for card in cards %}
+        <p>{{ card.display() }}</p>
+      {% endfor %}
+  </div>
+{% endblock %}
+
