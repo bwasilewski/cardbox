@@ -2,10 +2,37 @@
 
 TODO: Write a project description
 
-## Installation
+## Initial Setup
 
-Setup virtualenv and Flask and Flask-PyMongo, then start the mongo server
+```
+$ sudo pip install virtualenv
+```
 
+With virtualenv and mongodb installed:
+
+```
+$ virtualenv cardbox
+$ cd cardbox
+$ . bin/activate
+$ git clone https://github.com/bwasilewski/cardbox
+$ mv cardbox/manage.py . (working on the structure to eliminate this step)
+$ cd cardbox
+$ pip install -r requirements.txt
+```
+
+In a separate tab in same virtualenv:
+
+```
+$ mongod (starts mongo server)
+```
+
+Back in virtualenv directory:
+
+```
+$ python manage.py runserver
+```
+
+Leaving the old instructions here until we verify the new setup steps:
 ```
 $ sudo pip install virtualenv
 $ mkdir cardbox
@@ -30,10 +57,10 @@ From directory above repo, activate virtual environment
 $ . bin/activate
 ```
 
-Move to cardbox repo directory, start the server
+Start the server
 
 ```
-$ python application.py
+$ python manage.py runserver
 ```
 
 ## Contributing
