@@ -1,0 +1,5 @@
+Elizabeth To do:
+
+1) Make card model that fits deckbrew
+2) Import some deckbrew cards to local mongodb
+3) Make a search tab
